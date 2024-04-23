@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        
+    </div>
+    <div class="container px-5 my-5">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <div class="mb-3">
+                <label class="form-label" for="newField1">New Field 1</label>
+                <input class="form-control" id="newField1" type="text" placeholder="New Field 1"
+                    data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="newField1:required">New Field 1 is required.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="harga">Harga</label>
+                <input class="form-control" id="harga" type="text" placeholder="Harga" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="harga:required">Harga is required.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="kategori">Kategori</label>
+                <input class="form-control" id="kategori" type="text" placeholder="Kategori"
+                    data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="kategori:required">Kategori is required.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="deskripsi">Deskripsi</label>
+                <textarea class="form-control" id="deskripsi" type="text" placeholder="Deskripsi" style="height: 10rem;"
+                    data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="deskripsi:required">Deskripsi is required.</div>
+            </div>
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    <p>To activate this form, sign up at</p>
+                    <a
+                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                </div>
+            </div>
+            <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>

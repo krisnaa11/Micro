@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* bagian foto background */
+  .main {
+    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .icon:last-child {
+    margin-right: 30;
+  }
+  
+  .navbar {
+    width: 100%;
+    margin: auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c68b59;
+    height: 100px;
+    border-bottom-left-radius: 70px; 
+    border-bottom-right-radius: 70px; 
+    border-top-left-radius: 0px; /* Melengkungkan sudut kiri atas */
+    border-top-right-radius: 0px; /* Melengkungkan sudut kanan atas */
+  }
+  
+  
+  .navbar-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Tambahkan ini agar semua item berada di tengah */
+  }
+  
+  /* bagian tulisan logo */
+  .logo {
+    font-size: 18px;
+    margin-bottom: 1%;
+    font-weight: bold;
+  }
+  
+  /* bagian posisi tulisan navbar */
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  
+  /* bagian editing tulisan navbar */
+  .navbar ul li a {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  .search-bar {
+    border: 1px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  #search-box {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 100%; /* Adjust width as needed */
+    background-color: white;
+  }
+  
+  #search-box:focus {
+    outline: white;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .fa-search {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  bagian icon
+  .icon {
+    display: flex;
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: 1000;
+  }
+  
+  .teks {
+    font-size: 15pt;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+  
+  .teks1 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  .isikonten2 {
+    margin-left: 2rem;
+  }
+  
+  .konten2 {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .button {
+    background-color: #b0926a;
+    width: 87%;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .kategori {
+      background-color: #b0926a;
+      width: 16%;
+      color: white;
+      text-align: center;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-left: 82%;
+  }
+  
+  .garis {
+      width: 95%;
+      align-items: center;
+      margin-left: 2rem;
+      border-color: black;
+  }
+  
+  
+  .poto {
+    margin: 25px;
+    align-items: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* styles for individual product cards */
+  .card {
+    width: 24%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 4px 8px
+  }
+  
+  /* styles for product image */
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* styles for product title */
+  .card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  /* styles for product price */
+  .card p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* styles for "Add to Cart" button */
+  .card button {
+    background-color: #B0926A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+  
+  /* hover effect for button */
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  

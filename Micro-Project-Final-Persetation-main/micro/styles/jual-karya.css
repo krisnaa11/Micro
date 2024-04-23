@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+/* bagian foto background */
+.main {
+  font-family: Arial, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c68b59;
+  height: 100px;
+  border-bottom-left-radius: 70px; 
+  border-bottom-right-radius: 70px; 
+  border-top-left-radius: 0px; /* Melengkungkan sudut kiri atas */
+  border-top-right-radius: 0px; /* Melengkungkan sudut kanan atas */
+}
+
+
+.navbar-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Tambahkan ini agar semua item berada di tengah */
+}
+
+
+/* bagian tulisan logo */
+.logo {
+  font-size: 18px;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* bagian posisi tulisan navbar */
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+/* bagian editing tulisan navbar */
+.navbar ul li a {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.search-bar {
+  border: 1px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#search-box {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  width: 100%; /* Adjust width as needed */
+  background-color: white;
+}
+
+#search-box:focus {
+  outline: white;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.fa-search {
+  font-size: 18px;
+  color: #333;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.icon:last-child {
+  margin-right: 30;
+}
+
+h1 {
+  font-weight: 1000;
+}
+
+.teks {
+  font-size: 15pt;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.teks1 {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.isikonten2 {
+  margin-left: 2rem;
+}
+
+.konten2 {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.container1 {
+  display: flex;
+}
+
+.button1 {
+  background-color: #e7b685;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.my-box {
+  width: 200px;
+  height: 100px;
+  background-color: #e7b685;
+  border: none;
+  margin: 10px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.isi {
+  text-align: center;
+}
+
+.button {
+  background-color: #b0926a;
+  width: 87%;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.kategori {
+  background-color: #b0926a;
+  width: 16%;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-left: 82%;
+}
+
+.garis {
+  width: 95%;
+  align-items: center;
+  margin-left: 2rem;
+  border-color: black;
+}
+
+.poto {
+  margin: 15px;
+  align-items: center;
+}
+
+.button2 {
+    background-color: #706233;
+    color: white;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
